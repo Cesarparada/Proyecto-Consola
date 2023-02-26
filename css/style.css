@@ -19,11 +19,24 @@ body {
   border-radius: 5px 5px 20% 20%;
   box-shadow: 2px 2px 2px 4px;
 }
-.pantalla {
+.marco {
   width: 300px;
-  height: 250px;
-  background-color: grey;
+  height: 280px;
+  background-color: black;
   border-radius: 5%;
+  position: relative;
+  top: 15px;
+  left: 25px;
+  background-image: url(../multimedia/gameboyColor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 200px;
+  background-size: 200px;
+}
+.pantalla {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(109, 58, 58);
   position: relative;
   top: 15px;
   left: 25px;
