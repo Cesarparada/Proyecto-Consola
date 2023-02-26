@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(12, 226, 223);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consola {
+  width: 350px;
+  height: 600px;
+  background-color: burlywood;
+  border-radius: 5px 5px 20% 20%;
+  box-shadow: 2px 2px 2px 4px;
+}
+.pantalla {
+  width: 300px;
+  height: 250px;
+  background-color: grey;
+  border-radius: 5%;
+  position: relative;
+  top: 15px;
+  left: 25px;
+}
