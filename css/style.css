@@ -41,6 +41,10 @@ body {
   position: relative;
   top: 15px;
   left: 25px;
+  background-image: url(../multimedia/linkgif.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 0px;
 }
 #cruz {
   background: black;
@@ -61,7 +65,7 @@ body {
   box-shadow: rgba(0, 0, 0, 1) 2.4px 2.4px 3.2px;
 }
 .boton {
-  color: rgb(28, 25, 25);
+  color: rgb(79, 60, 60);
   font-size: xx-large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
@@ -84,7 +88,6 @@ body {
   left: 210px;
 }
 .start {
-  display: flex;
   background: black;
   height: 10px;
   width: 40px;
@@ -94,7 +97,6 @@ body {
   left: 175px;
 }
 .select {
-  display: flex;
   background: black;
   height: 10px;
   width: 40px;
@@ -104,7 +106,7 @@ body {
   left: 125px;
 }
 .item1 {
-  color: rgb(139, 72, 5);
+  color: rgb(58, 41, 24);
   height: 10px;
   width: 40px;
   position: relative;
@@ -112,7 +114,7 @@ body {
   left: 110px;
 }
 .item2 {
-  color: rgb(139, 72, 5);
+  color: rgb(58, 41, 24);
   height: 10px;
   width: 40px;
   position: relative;

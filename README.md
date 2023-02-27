@@ -9,3 +9,7 @@ Elaboration of the structure of a video console using HTML and CSS.
 ### Prerequisites
 
 -Access to a code editor is required.
+
+
+<img src="multimedia/videoconsola.png"/> 
+
