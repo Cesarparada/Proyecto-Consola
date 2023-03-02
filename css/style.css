@@ -1,40 +1,43 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   box-sizing: border-box;
 }
-
 body {
   background: rgb(12, 226, 223);
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#videoconsola {
+} 
+.container {
+  display: flex;
+  flex-direction: column;
   width: 350px;
   height: 600px;
   background-color: rgb(185, 96, 7);
   border-radius: 5px 5px 20% 20%;
   box-shadow: 2px 2px 2px 4px;
 }
-
+.parte-superior{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .marco {
+  display: flex;
+  justify-content: center;
   width: 300px;
   height: 280px;
   background-color: black;
   border-radius: 5%;
-  position: relative;
-  top: 15px;
-  left: 25px;
   background-image: url(../multimedia/gameboyColor.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 200px;
   background-size: 200px;
 }
-.pantalla {
+/* .pantalla {
   width: 250px;
   height: 200px;
   background-color: rgb(109, 58, 58);
@@ -45,16 +48,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 0px;
-}
-#cruz {
-  background: black;
-  height: 100px;
-  position: relative;
-  width: 30px;
-  margin: 60px;
-  box-shadow: rgba(0, 0, 0, 1) 2.4px 2.4px 3.2px;
-}
-#cruz:after {
+} */
+
+/* #cruz:after {
   background: rgb(0, 0, 0);
   content: "";
   height: 30px;
@@ -63,31 +59,19 @@ body {
   top: 35px;
   width: 100px;
   box-shadow: rgba(0, 0, 0, 1) 2.4px 2.4px 3.2px;
-}
-.boton {
-  color: rgb(79, 60, 60);
-  font-size: xx-large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  display: flex;
-  height: 50px;
-  width: 50px;
-  background: rgb(0, 0, 0);
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 1) 2.4px 2.4px 3.2px;
-}
-#botonA {
+} */
+
+/* #botonA {
   position: relative;
   top: -155px;
   left: 270px;
-}
-#botonB {
+} */
+/* #botonB {
   position: relative;
   top: -155px;
   left: 210px;
-}
-.start {
+} */
+/* .start {
   background: black;
   height: 10px;
   width: 40px;
@@ -95,8 +79,8 @@ body {
   position: relative;
   top: -90px;
   left: 175px;
-}
-.select {
+} */
+/* .select {
   background: black;
   height: 10px;
   width: 40px;
@@ -104,20 +88,20 @@ body {
   position: relative;
   top: -100px;
   left: 125px;
-}
-.item1 {
+} */
+/* .item1 {
   color: rgb(58, 41, 24);
   height: 10px;
   width: 40px;
   position: relative;
   top: -100px;
   left: 110px;
-}
-.item2 {
+} */
+/* .item2 {
   color: rgb(58, 41, 24);
   height: 10px;
   width: 40px;
   position: relative;
   top: -110px;
   left: 175px;
-}
+} */
