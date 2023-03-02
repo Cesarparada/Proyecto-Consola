@@ -10,34 +10,36 @@
 
   <body>
     <div class="container">
-      <div class="cuadrante parte-superior">
-        <div class="marco"><div class="pantalla"></div></div>
-        <div class="logo nintendo"><p>Nintendo</p></div>
+     <div class="cuadrante parte-superior">
+        <div class="marco"> 
+          <div clase="pantalla"><div class="image"><img src="/multimedia/nintendo.gif" alt="" id="imgchange" width="250px" height="200px"></div></div>
+        </div>
+      <div class="logo nintendo"><p>Nintendo</p></div>
+     </div>
+    <div class="cuadrante parte-media">
+      <div class="controls">
+        <div class="direction up letter">▲</div>
+        <div class="direction button-center">
+          <div class="direction left letter">◄</div>
+          <div class="direction center letter">●</div>
+          <div class="direction right letter">►</div>
+        </div>
+        <div class="direction down letter">▼</div>
       </div>
-      <div class="cuadrante parte-media">
-        <div class="controls">
-          <div class="direction up letter">▲</div>
-          <div class="direction button-center">
-            <div class="direction left letter">◄</div>
-            <div class="direction center letter">●</div>
-            <div class="direction right letter">►</div>
-          </div>
-          <div class="direction down letter">▼</div>
-        </div>
-        <div class="controls action">
-          <div class="action-button button-A letter"><p>A</p></div>
-          <div class="action-button button-B letter"><p>B</p></div>
-        </div>
+      <div class="controls action">
+        <div class="action-button letter" id="button1"><p>A</p></div>
+        <div class="action-button button2 letter"><p>B</p></div>
       </div>
-      <div class="cuadrante parte-inferior">
-        <div class="item letter">
-          <div class="select"><p>SELECT</p></div>
-        </div>
-        <div class="item letter">
-          <div class="start"><p>START</p></div>
-        </div>
-      </div>
-      <!-- <div class="bocina">0</div> -->
     </div>
+    <div class="cuadrante parte-inferior">
+      <div class="item letter">
+        <div id="select"><p>SELECT</p></div>
+      </div>
+      <div class="item letter">
+        <div id="start"><p>START</p></div>
+      </div>
+    </div>
+    <!-- <div class="bocina">0</div> -->
+    <script src="/js/main.js"></script>
   </body>
 </html>
