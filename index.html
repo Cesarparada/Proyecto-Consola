@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VideoConsola</title>
     <link rel="stylesheet" href="css/style.css" />
-    <img src="" alt="">
   </head>
 
   <body>
-    <div id="videoconsola">
-      <div class="marco">
-        <div class="pantalla"></div>
+    <div class="container">
+      <div class="cuadrante parte-superior">
+        <div class="marco"><div class="pantalla"></div></div>
+        <div class="logo nintendo"><p>Nintendo</p></div>
       </div>
-
-      <div id="cruz"></div>
-      <div id="botonA" class="boton">A</div>
-      <div id="botonB" class="boton">B</div>
-      <div class="start"></div>
-      <div class="select"></div>
-      <div class="item1">SELECT</div>
-      <div class="item2">START</div>
-      
+      <div class="cuadrante parte-media">
+        <div class="controls">
+          <div class="direction up letter"></div>
+          <div class="direction button-center">
+            <div class="direction left letter"></div>
+            <div class="direction center letter"></div>
+            <div class="direction right lett"></div>
+          </div>
+          <div class="direction down letter"></div>
+        </div>
+        <div class="controls action">
+          <div class="action-button butto-A letter"><p>A</p></div>
+          <div class="action-button butto-B letter"><p>B</p></div>
+        </div>
+      </div>
+      <div class="cuadrante parte-inferior">
+        <div class="item letter">
+          <div class="select"><p>SELECT</p></div>
+        </div>
+        <div class="item">
+          <div class="item letter"><p>START</p></div>
+        </div>
+      </div>
+      <div class="bocina">0</div>
     </div>
   </body>
 </html>
