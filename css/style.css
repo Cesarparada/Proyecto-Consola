@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-} 
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
   border-radius: 5px 5px 20% 20%;
   box-shadow: 2px 2px 2px 4px;
 }
-.parte-superior{
+.parte-superior {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -37,18 +37,47 @@ body {
   background-position-y: 200px;
   background-size: 200px;
 }
-/* .pantalla {
+.logo {
+  color: rgba(86, 5, 5, 0.913);
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 2px solid rgba(86, 5, 5, 0.913);
+}
+.pantalla {
   width: 250px;
   height: 200px;
-  background-color: rgb(109, 58, 58);
   position: relative;
   top: 15px;
-  left: 25px;
   background-image: url(../multimedia/linkgif.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 0px;
-} */
+}
+.parte-media {
+  margin: 15px;
+  display: flex;
+}
+.controls {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.direction {
+  border: 1px solid;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.button-center {
+  width: 90px;
+}
 
 /* #cruz:after {
   background: rgb(0, 0, 0);
