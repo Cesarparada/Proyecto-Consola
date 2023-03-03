@@ -39,6 +39,9 @@ body {
   background-position-y: 200px;
   background-size: 200px;
 }
+.image{
+  height: 250px;
+}
 .logo {
   color: rgba(86, 5, 5, 0.913);
   margin-top: 20px;

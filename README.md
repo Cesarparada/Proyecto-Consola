@@ -6,8 +6,9 @@
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Acknowledgments](#acknowledgements)
+- [Preview](#preview)
 
-## About <a name = "about"></a>
+## About
 
 Elaboración de la estructura de una videoconsola usando HTML, CSS y JavaScript para funciones interactivas
 
@@ -18,6 +19,8 @@ Techniques learned in HTML are applied together with CSS styles and functions, t
 ### Prerequisites
 
 -Access to a code editor is required.
+
+## Preview
 
 <img src="Videoconsola.png"/>
 
